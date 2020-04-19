@@ -22,25 +22,26 @@
   <body>
     <div class="page">
       <!-- *Header section -->
-      <header class="header flex-row color_background_light">
-        <h1 class="header__title left-indent_size_m">Научиться учиться</h1>
+      <header class="header">
+        <h1 class="header__title">Научиться учиться</h1>
         <img
           src="./images/logo_place_header.svg"
           alt="Логотип Яндекс.Практикум"
-          class="logo logo_place_header left-indent_size_m"
+          class="logo logo_place_header"
         />
-        <h2 class="header__subtitle left-indent_size_m">
+        <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="link color_text_accent">Узнать →</a>
-        </h2>
+          <a href="#" class="header__link">Узнать &#8594;</a>
+        </p>
         <div class="header__main-illustration"></div>
-        <div class="header__square-pic color_background_accent"></div>
+        <div class="header__square-pic"></div>
       </header>
       <main class="content">
-        <section class="description flex-row content__section_light">
-          <div class="two-columns flex-row">
-            <h3 class="two-columns__brief color_text_accent">
+        <!-- *Description section -->
+        <section class="description content__description">
+          <div class="two-columns">
+            <h3 class="two-columns__brief">
               Главные проблемы в обучении
             </h3>
             <div class="two-columns__main-text">
@@ -66,12 +67,12 @@
         </section>
 
         <!-- *Digits section -->
-        <section class="digits flex-column content__section_light">
+        <section class="digits content__digits">
           <h2 class="section-title digits__section-title">Цифры и факты</h2>
-          <h3 class="section-subtitle digits__section-subtitle">
+          <p class="section-subtitle digits__section-subtitle">
             Про учёбу и мозг
-          </h3>
-          <ul class="table flex-row plane-list">
+          </p>
+          <ul class="table">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
@@ -82,7 +83,7 @@
                 Число нуждающихся в повышении квалификации
               </p>
               <p class="table__text">
-                <cite class="cite">Всемирный Банк, 2017</cite>
+                Всемирный Банк, 2017
               </p>
             </li>
             <li class="table__cell">
@@ -103,7 +104,7 @@
                 трудоустройства
               </p>
               <p class="table__text">
-                <cite class="cite">Всемирный Банк, 2017</cite>
+                Всемирный Банк, 2017
               </p>
             </li>
             <li class="table__cell">
@@ -122,131 +123,135 @@
         </section>
 
         <!-- *Feiman section -->
-        <section class="feinman flex-column color_background_light">
-          <h2 class="section-title feinman__title">Метод Фейнмана</h2>
-          <h3 class="section-subtitle feinman__subtitle">
+        <section class="feinman">
+          <h2 class="feinman__title">Метод Фейнмана</h2>
+          <p class="feinman__subtitle">
             Выучить и не забыть.
-          </h3>
-          <a href="#" class="link feinman__link color_text_dark">Подробнее →</a>
+          </p>
+          <a href="#" class="feinman__link">Подробнее &#8594;</a>
         </section>
 
         <!-- *Kaufman section -->
-        <section
-          class="kaufman flex-column color_background_dark color_text_light"
-        >
+        <section class="kaufman">
           <h2 class="section-title kaufman__section-title">
             Принципы обучения
           </h2>
-          <h3 class="section-subtitle kaufman__section-subtitle">
+          <p class="section-subtitle kaufman__section-subtitle">
             от Джоша Кауфмана
-          </h3>
-          <ul class="table flex-row plane-list">
-            <li class="table__cell table__cell_size_s">
+          </p>
+          <ul class="table">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">1</h4>
               <p class="table__text">Выберите привлекательный проект.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">2</h4>
               <p class="table__text">
                 Сосредоточьтесь на каком-то одном навыке.
               </p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">3</h4>
               <p class="table__text">Определите целевой уровень мастерства.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">4</h4>
               <p class="table__text">Разбейте навык на элементы.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">5</h4>
               <p class="table__text">
                 Приготовьте всё необходимое для занятий.
               </p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">6</h4>
               <p class="table__text">Устраните препятствия для занятий.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">7</h4>
               <p class="table__text">Выделите специальное время для занятий.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">8</h4>
               <p class="table__text">Создайте быстрые петли обратной связи.</p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">9</h4>
               <p class="table__text">
                 Занимайтесь по расписанию, короткими интенсивными интервалами.
               </p>
             </li>
-            <li class="table__cell table__cell_size_s">
+            <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">10</h4>
               <p class="table__text">
                 Уделяйте внимание количеству и скорости.
               </p>
             </li>
           </ul>
-          <div class="triangle"></div>
+          <div class="kaufman__triangle"></div>
         </section>
       </main>
 
       <!-- *Footer section -->
-      <footer class="footer flex-row color_background_dark color_text_light">
-        <div class="footer__columns flex-row">
-          <div class="footer__column_content_copyright flex-column">
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
             <img
               src="./images/logo_place_footer.svg"
               alt="Логотип Яндекс.Практикум"
               class="logo logo_place_footer"
             />
-            <h2 class="footer__author">
-              <small class="copyright">© 2020. Михаил Пименов</small>
-            </h2>
+            <p class="footer__author">
+              &copy; 2020. Михаил Пименов
+            </p>
           </div>
-          <div class="footer__column_content_info">
+          <nav class="footer__column footer__column_content_info">
             <h2 class="footer__column-heading">О Практикуме</h2>
-            <ul class="footer__column-links plane-list">
-              <li><a href="#" class="link color_text_light">Главная</a></li>
-              <li><a href="#" class="link color_text_light">Концепции</a></li>
-              <li><a href="#" class="link color_text_light">Наставкники</a></li>
-            </ul>
-          </div>
-          <div class="footer__column_content_social">
-            <h2 class="footer__column-heading">Соцсети</h2>
-            <ul class="footer__column-links plane-list">
+            <ul class="footer__column-links">
               <li>
-                <a href="#" class="link color_text_light" target="_blank"
+                <a href="#" class="footer__link">Главная</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Концепции</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Наставкники</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Соцсети</h2>
+            <ul class="footer__column-links">
+              <li>
+                <a href="#" class="footer__link" target="_blank"
                   ><img
                     src="./images/facebook_color_white.svg"
                     alt="Иконка Facebook"
-                    class="footer__social_icon"
+                    class="footer__social-icon"
                   />Facebook</a
                 >
               </li>
               <li>
-                <a href="#" class="link color_text_light" target="_blank"
+                <a href="#" class="footer__link" target="_blank"
                   ><img
                     src="./images/vk_color_white.svg"
                     alt="Иконка Вконтакте"
-                    class="footer__social_icon"
+                    class="footer__social-icon"
                   />ВКонтакте</a
                 >
               </li>
               <li>
-                <a href="#" class="link color_text_light" target="_blank"
+                <a href="#" class="footer__link" target="_blank"
                   ><img
                     src="./images/instagram_color_white.svg"
                     alt="Иконка Instagram"
-                    class="footer__social_icon"
+                    class="footer__social-icon"
                   />Instagram</a
                 >
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
       </footer>
     </div>
