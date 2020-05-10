@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./blocks/page/page.css" />
     <link rel="stylesheet" href="./blocks/content/content.css" />
+    <link
+      rel="stylesheet"
+      href="./blocks/opacity-animation/opacity-animation.css"
+    />
     <link rel="stylesheet" href="./blocks/header/header.css" />
     <link rel="stylesheet" href="./blocks/logo/logo.css" />
     <link rel="stylesheet" href="./blocks/rotation/rotation.css" />
@@ -33,6 +37,7 @@
     <link rel="stylesheet" href="./blocks/khan/khan.css" />
     <link rel="stylesheet" href="./blocks/feinman/feinman.css" />
     <link rel="stylesheet" href="./blocks/kaufman/kaufman.css" />
+    <link rel="stylesheet" href="./blocks/resources/resources.css" />
     <link rel="stylesheet" href="./blocks/footer/footer.css" />
     <link rel="stylesheet" href="./blocks/two-columns/two-columns.css" />
 
@@ -53,7 +58,7 @@
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a href="#" class="header__link">Узнать &#8594;</a>
+          <a href="#" class="header__link opacity-animation">Узнать &#8594;</a>
         </p>
         <div class="header__main-illustration"></div>
         <div class="header__square-pic rotation"></div>
@@ -210,7 +215,7 @@
           <p class="feinman__subtitle">
             Выучить и не забыть.
           </p>
-          <a href="#" class="feinman__link">Подробнее &#8594;</a>
+          <a href="#" class="feinman__link opacity-animation">Подробнее &#8594;</a>
         </section>
 
         <!-- *Digits section -->
@@ -295,7 +300,7 @@
                 alt="Картинка: книга Саламана Хана - Весь мир школа"
                 class="khan__book-pic"
               />
-              <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
+              <a href="#" class="khan__buy-link opacity-animation">Купить книгу &#8594;</a>
             </div>
           </div>
         </section>
@@ -363,7 +368,38 @@
       </main>
 
       <!-- *Resources section -->
-      <section class="resources"></section>
+      <section class="resources">
+        <h2 class="section-title resources__section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle resources__section-subtitle">
+          Больше материалов о техниках и лайфхаках обучения
+        </p>
+        <div class="resources__logo-zone">
+          <a href="#" class="resources__logo-container opacity-animation"
+            ><img
+              src="./images/logo/resources-arzamas.svg"
+              alt="Логотип ресурса Arazamas"
+              class="resources__logo"
+          /></a>
+          <a href="#" class="resources__logo-container opacity-animation"
+            ><img
+              src="./images/logo/resources-n1.svg"
+              alt="Логотип ресурса N + 1"
+              class="resources__logo"
+          /></a>
+          <a href="#" class="resources__logo-container opacity-animation"
+            ><img
+              src="./images/logo/resources-strelka.svg"
+              alt="Логотип ресурса STRELKA"
+              class="resources__logo"
+          /></a>
+          <a href="#" class="resources__logo-container opacity-animation"
+            ><img
+              src="./images/logo/resources-polka.svg"
+              alt="Логотип ресурса ПОЛКА"
+              class="resources__logo"
+          /></a>
+        </div>
+      </section>
 
       <!-- *Footer section -->
       <footer class="footer">
@@ -382,13 +418,13 @@
             <h2 class="footer__column-heading">О Практикуме</h2>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__link">Главная</a>
+                <a href="#" class="footer__link opacity-animation">Главная</a>
               </li>
               <li>
-                <a href="#" class="footer__link">Концепции</a>
+                <a href="#" class="footer__link opacity-animation">Концепции</a>
               </li>
               <li>
-                <a href="#" class="footer__link">Наставкники</a>
+                <a href="#" class="footer__link opacity-animation">Наставкники</a>
               </li>
             </ul>
           </nav>
@@ -396,7 +432,7 @@
             <h2 class="footer__column-heading">Соцсети</h2>
             <ul class="footer__column-links">
               <li>
-                <a href="#" class="footer__link" target="_blank"
+                <a href="#" class="footer__link opacity-animation" target="_blank"
                   ><img
                     src="./images/facebook_color_white.svg"
                     alt="Иконка Facebook"
@@ -405,7 +441,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="footer__link" target="_blank"
+                <a href="#" class="footer__link opacity-animation" target="_blank"
                   ><img
                     src="./images/vk_color_white.svg"
                     alt="Иконка Вконтакте"
@@ -414,7 +450,7 @@
                 >
               </li>
               <li>
-                <a href="#" class="footer__link" target="_blank"
+                <a href="#" class="footer__link opacity-animation" target="_blank"
                   ><img
                     src="./images/instagram_color_white.svg"
                     alt="Иконка Instagram"
